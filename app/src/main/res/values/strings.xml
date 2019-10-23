@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cowlogs2</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="conditions_array">
+        <item></item>
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentEnd="false"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingTop="50dp"
+    android:paddingRight="50dp"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/angus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBreed"
+        android:tag="0"
+        android:text="ANGUS" />
+
+    <Button
+        android:id="@+id/hereford"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBreed"
+        android:tag="1"
+        android:text="HEREFORD" />
+
+    <Button
+        android:id="@+id/brahman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBreed"
+        android:tag="2"
+        android:text="BRAHMAN" />
+
+    <Button
+        android:id="@+id/shorthorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBreed"
+        android:tag="3"
+        android:text="SHORTHORN" />
+
+    <Button
+        android:id="@+id/brangus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBreed"
+        android:tag="4"
+        android:text="BRANGUS"/>
+</LinearLayout>
